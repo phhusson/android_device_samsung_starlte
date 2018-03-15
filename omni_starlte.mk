@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := star2lte
+PRODUCT_RELEASE_NAME := starlte
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -12,7 +12,7 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := star2lte
-PRODUCT_NAME := omni_star2lte
+PRODUCT_DEVICE := starlte
+PRODUCT_NAME := omni_starlte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

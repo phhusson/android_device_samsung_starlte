@@ -22,7 +22,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos9810-star2lte_eur_defconfig
+TARGET_KERNEL_CONFIG := exynos9810-starlte_eur_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/universal9810
 TARGET_USES_UNCOMPRESSED_KERNEL := true
@@ -33,7 +33,7 @@ BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100 --board SRPQH16A001RU
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100 --board SRPQH16B001KU
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 
 # File systems
@@ -56,7 +56,7 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 
 # Include
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/star2lte/include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/starlte/include
 
 # SELinux Policies
-BOARD_SEPOLICY_DIRS := device/samsung/star2lte/sepolicy
+BOARD_SEPOLICY_DIRS := device/samsung/starlte/sepolicy

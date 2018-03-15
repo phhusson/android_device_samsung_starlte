@@ -1,4 +1,4 @@
-ifneq ($(filter star2lte,$(TARGET_DEVICE)),)
+ifneq ($(filter starlte,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
